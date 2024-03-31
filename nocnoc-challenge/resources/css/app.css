@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 1.3vh;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #434343;
+  }
+  
+  ::-webkit-scrollbar-button {
+    border-radius: 10px;
+  }
+
+  .mask-gradient {
+    mask-image: linear-gradient(black 50%, transparent);
+    mask-image: none;
+  }
+  .mask-gradient-none {
+    mask-image: none;
+  }
+  
